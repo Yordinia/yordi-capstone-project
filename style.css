@@ -136,7 +136,7 @@ section:first-child h6 {
   font-weight: 700;
   line-height: 30px;
   padding-inline: 15%;
-  color: white;
+  color: rgb(14, 13, 13);
   margin: auto;
 }
 
@@ -160,7 +160,7 @@ section:first-child h6 {
 }
 
 #see-program {
-  color: white;
+  color: rgb(8, 8, 8);
   letter-spacing: 0.3rem;
 }
 
