@@ -52,10 +52,6 @@
 
 - [Live Demo Link](https://yordinia.github.io/yordi-capstone-project/)
 
-> Here is a link to loom video.
-
-- [Loom Video Link](https://www.loom.com/share/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
