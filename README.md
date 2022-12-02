@@ -49,8 +49,8 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 <details>
-<summary> Here is a link to deployed project.</summary>
-- [Live Demo Link](https://yordinia.github.io/yordi-capstone-project/)
+<summary> ## Here is a link to deployed project.</summary>
+- ## [Live Demo Link](https://yordinia.github.io/yordi-capstone-project/)
 </details>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
