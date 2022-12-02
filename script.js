@@ -28,7 +28,6 @@ const popUp = function () {
 humburger.addEventListener('click', popUp);
 
 const features = document.querySelector('#introduction');
-// const activities = document.querySelector('.featured-activities');
 const activitiesArray = [
   {
     id: '1',
@@ -144,5 +143,3 @@ const createActivities = () => {
 };
 
 createActivities();
-
-/** For hover effect */
