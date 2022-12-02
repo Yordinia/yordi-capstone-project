@@ -40,9 +40,12 @@
   cursor: pointer;
 }
 
-.logo {
-
+.about-container {
+  background: #da2424;
+  padding: 5rem 7rem;
 }
+
+about-title
 
 .bar {
   width: 30px;
