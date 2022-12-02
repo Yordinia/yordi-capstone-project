@@ -1,11 +1,11 @@
-<a name="readme-top"></a>
+<a id="readme-top"></a>
 
 <div align="center">
 
   <img src="images/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Capstone-project-one</b></h3>
+  <h3><b>Yordi-capstone-project</b></h3>
 
 </div>
 
@@ -28,15 +28,15 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Capstone-project-one <a name="about-project"></a>
+# 📖 Capstone-project-one <a id="about-project"></a>
 
 > This is the first capstone project in microverse course.
 
-## 🛠 Built With <a name="built-with">HTML, CSS, & Javascript</a>
+## 🛠 Built With <a id="built-with">HTML, CSS, & Javascript</a>
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+### Key Features <a id="key-features"></a>
 
 - Responsive 
 - Fast
@@ -45,7 +45,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-<descrtiption>
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 <details>
 <summery>> Here is a link to deployed project.</summary>
@@ -75,8 +75,6 @@ Clone this repository to your desired folder:
 To run project, run the following command:
 
   Open in desired editor.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
