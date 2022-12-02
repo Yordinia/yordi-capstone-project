@@ -51,9 +51,7 @@
 <details>
 <summery> Here is a link to deployed project.</summary>
 - [Live Demo Link](https://yordinia.github.io/yordi-capstone-project/)
-
-<details/>
-
+</details>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
