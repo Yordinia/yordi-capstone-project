@@ -45,12 +45,13 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
+<descrtiption>
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Here is a link to deployed project.
-
+<details>
+<summery>> Here is a link to deployed project.</summary>
 - [Live Demo Link](https://yordinia.github.io/yordi-capstone-project/)
+
+<details/>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,10 +84,11 @@ To run project, run the following command:
 
 > Mention all of the collaborators of this project.
 
-👤 Bernabas yosef
+👤 Yordanos Temesgen
 
- GitHub: [@githubhandle](https://github.com/bernabasy)
- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bernabas-yosef-74b571186)
+- GitHub: [@yordinia](https://github.com/yordinia)
+- Twitter: [@yordinia](https://twitter.com/yordinia)
+- LinkedIn: [Yordanos-Temesgen](https://linkedin.com/in/yordanos-temesgen-251b6a202)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
