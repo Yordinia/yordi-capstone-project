@@ -3,17 +3,18 @@ const x = document.querySelector('#exit');
 const popupList = document.querySelector('.nav ul');
 const secHeader = document.querySelector('.sec-header');
 const lis = document.querySelectorAll('.nav ul li');
+const toClick = document.getElementById('to-click');
 
 secHeader.classList.add('a-class');
 
-function close() {
+const close = function () {
   x.classList.add('nullifier');
   humburger.classList.remove('nullifier');
   secHeader.classList.replace('popup', 'a-class');
   popupList.classList.replace('popup', 'toggle');
-}
+};
 
-function popUp() {
+const popUp = function () {
   secHeader.classList.replace('a-class', 'popup');
   humburger.classList.add('nullifier');
   x.classList.remove('nullifier');
@@ -23,7 +24,7 @@ function popUp() {
   x.addEventListener('click', close);
 
   lis.forEach((li) => li.addEventListener('click', close));
-}
+};
 
 humburger.addEventListener('click', popUp);
 
@@ -97,9 +98,9 @@ const createActivities = () => {
     event.classList.add('event');
     activityContainer.appendChild(event);
 
-    if (index >= 2) {
-      event.classList.add('nullifier');
-    }
+    // if (index >= 2) {
+    //   event.classList.add('nullifier');
+    // }
 
     const img = document.createElement('img');
     img.classList.add('e-img');
@@ -128,7 +129,6 @@ const createActivities = () => {
     detail.innerText = item.detail;
     info.appendChild(detail);
 
-    const toClick = document.getElementById('to-click');
     toClick.addEventListener('click', () => {
       event.classList.remove('nullifier');
       toClick.classList.replace('show', 'nullifier');
