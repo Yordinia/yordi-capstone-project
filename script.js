@@ -6,14 +6,14 @@ const lis = document.querySelectorAll('.nav ul li');
 
 secHeader.classList.add('a-class');
 
-const close = function () {
+function close() {
   x.classList.add('nullifier');
   humburger.classList.remove('nullifier');
   secHeader.classList.replace('popup', 'a-class');
   popupList.classList.replace('popup', 'toggle');
-};
+}
 
-const popUp = function () {
+function popUp() {
   secHeader.classList.replace('a-class', 'popup');
   humburger.classList.add('nullifier');
   x.classList.remove('nullifier');
@@ -23,7 +23,7 @@ const popUp = function () {
   x.addEventListener('click', close);
 
   lis.forEach((li) => li.addEventListener('click', close));
-};
+}
 
 humburger.addEventListener('click', popUp);
 

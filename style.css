@@ -34,14 +34,20 @@
   color: white;
 }
 
+.fa-xmark {
+  --fa-animation-duration: 2s;
+}
+
 .humburger {
   display: flex;
   flex-direction: column;
   cursor: pointer;
+
+  --fa-animation-duration: 3.5s;
 }
 
 .about-body {
-  background: #F7F7F7 url('./images/about-mobile.png') no-repeat center center;
+  background: #f7f7f7 url('./images/about-mobile.png') no-repeat center center;
   background-size: cover;
   text-align: center;
 }
@@ -49,20 +55,20 @@
 .about-container {
   background-color: white;
   width: 60vw;
-  margin: 2rem auto; 
+  margin: 2rem auto;
   padding: 1rem 3rem;
 }
 
 .about-title {
-padding: 1.5rem;
-font-size: 2rem;
-font-weight: 900;
-color: var(--clr-secondary);
-} 
+  padding: 1.5rem;
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--clr-secondary);
+}
 
 .about-footer {
   width: 65vw;
-  margin: 3rem auto; 
+  margin: 3rem auto;
   font-size: 1.5rem;
 }
 
@@ -183,7 +189,6 @@ color: var(--clr-secondary);
 .card {
   padding: 1rem 3rem;
   border: var(--clr-primary) solid 4px;
-  
 }
 
 #see-program {
@@ -311,7 +316,7 @@ color: var(--clr-secondary);
   .about-title {
     padding: 1rem;
     font-size: 2rem;
-} 
+  }
 }
 
 @media (min-width: 768px) {
