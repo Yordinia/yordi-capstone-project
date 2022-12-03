@@ -215,7 +215,7 @@ header {
 }
 
 .card-container {
-  background-color: #373a41;
+  background-color: rgba(56, 59, 66, 0.5);
   text-align: center;
   margin-bottom: 2rem;
 }
