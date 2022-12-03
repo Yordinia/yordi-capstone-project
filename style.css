@@ -40,12 +40,31 @@
   cursor: pointer;
 }
 
-.about-container {
-  background: #da2424;
-  padding: 5rem 7rem;
+.about-body {
+  background: #F7F7F7 url('./images/about-mobile.png') no-repeat center center;
+  background-size: cover;
+  text-align: center;
 }
 
-about-title
+.about-container {
+  background-color: white;
+  width: 60vw;
+  margin: 2rem auto; 
+  padding: 1rem 3rem;
+}
+
+.about-title {
+padding: 1.5rem;
+font-size: 2rem;
+font-weight: 900;
+color: var(--clr-secondary);
+} 
+
+.about-footer {
+  width: 65vw;
+  margin: 3rem auto; 
+  font-size: 1.5rem;
+}
 
 .bar {
   width: 30px;
@@ -74,7 +93,7 @@ about-title
   font-size: 3rem;
 }
 
-section:first-child {
+.intro {
   display: flex;
   flex-direction: column;
   background: url('./images/mobile_bg.png') center center;
@@ -84,7 +103,7 @@ section:first-child {
   padding-left: 2.5rem;
 }
 
-section:first-child h6 {
+.intro h6 {
   margin-top: 25px;
   font-size: 26px;
   color: var(--clr-secondary);
@@ -164,6 +183,7 @@ section:first-child h6 {
 .card {
   padding: 1rem 3rem;
   border: var(--clr-primary) solid 4px;
+  
 }
 
 #see-program {
@@ -287,6 +307,11 @@ section:first-child h6 {
   .a-class {
     display: none;
   }
+
+  .about-title {
+    padding: 1rem;
+    font-size: 2rem;
+} 
 }
 
 @media (min-width: 768px) {
@@ -305,6 +330,7 @@ section:first-child h6 {
     width: 100vw;
     margin: auto;
     max-width: 1200px;
+    background-color: white;
   }
 
   .toggle {
@@ -340,7 +366,7 @@ section:first-child h6 {
     font-size: 2rem;
   }
 
-  section:first-child {
+  .intro {
     height: auto;
     background-size: 60%;
     background-position: left;
@@ -359,7 +385,7 @@ section:first-child h6 {
     font-size: 60px;
   }
 
-  section:first-child h6 {
+  .intro h6 {
     margin-bottom: -10px;
   }
 
