@@ -51,6 +51,14 @@ header {
   --fa-animation-duration: 3.5s;
 }
 
+#home {
+  color:red;
+}
+
+#about {
+  color:red;
+}
+
 .about-body {
   background: #f7f7f7 url('./images/about-mobile.png') no-repeat center center;
   background-size: cover;
