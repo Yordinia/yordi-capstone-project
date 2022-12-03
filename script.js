@@ -7,14 +7,14 @@ const toClick = document.getElementById('to-click');
 
 secHeader.classList.add('a-class');
 
-const close = function () {
+function close() {
   x.classList.add('nullifier');
   humburger.classList.remove('nullifier');
   secHeader.classList.replace('popup', 'a-class');
   popupList.classList.replace('popup', 'toggle');
-};
+}
 
-const popUp = function () {
+function popUp() {
   secHeader.classList.replace('a-class', 'popup');
   humburger.classList.add('nullifier');
   x.classList.remove('nullifier');
@@ -24,7 +24,7 @@ const popUp = function () {
   x.addEventListener('click', close);
 
   lis.forEach((li) => li.addEventListener('click', close));
-};
+}
 
 humburger.addEventListener('click', popUp);
 
@@ -98,10 +98,6 @@ const createActivities = () => {
     event.classList.add('event');
     activityContainer.appendChild(event);
 
-    // if (index >= 2) {
-    //   event.classList.add('nullifier');
-    // }
-
     const img = document.createElement('img');
     img.classList.add('e-img');
     img.setAttribute('src', item.image);
@@ -131,7 +127,7 @@ const createActivities = () => {
 
     toClick.addEventListener('click', () => {
       event.classList.remove('nullifier');
-      toClick.classList.replace('show', 'nullifier');
+      toClick.style.display = 'none';
     });
   });
 
@@ -143,3 +139,23 @@ const createActivities = () => {
 };
 
 createActivities();
+
+const events = document.querySelectorAll('.event');
+const matchScreen = window.matchMedia('(max-width: 768px)');
+
+function match() {
+  if (matchScreen.matches) {
+    toClick.classList.add('nullifier');
+    toClick.classList.replace('nullifier', 'show');
+
+    for (let i = 2; i < 6; i += 1) {
+      events[i].classList.add('nullifier');
+    }
+  } else {
+    toClick.classList.add('nullifier');
+    toClick.classList.replace('show', 'nullifier');
+  }
+}
+
+matchScreen.addListener(match);
+match();
